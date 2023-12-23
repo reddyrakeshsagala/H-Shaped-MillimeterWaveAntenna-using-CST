@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry version="20170928">
+  <Objects>
+    <Object name="Components\component1:ANTENNA" id="1"/>
+    <Object name="Components\component1:GROUND" id="2"/>
+    <Object name="Components\component1:SUBSTRATE" id="3"/>
+  </Objects>
+  <Materials/>
+  <Groups>
+    <Group name="Group component1 ANTENNA" type="Connectivity" ID="1">
+      <Item name="Components\component1:ANTENNA" type="solid" id="1"/>
+    </Group>
+    <Group name="Group component1 GROUND" type="Connectivity" ID="1">
+      <Item name="Components\component1:GROUND" type="solid" id="2"/>
+    </Group>
+    <Group name="Isolators" type="Isolator" ID="1">
+      <Item name="Components\component1:SUBSTRATE" type="solid" id="3"/>
+    </Group>
+  </Groups>
+</CSTAuxiliaryGeometry>
